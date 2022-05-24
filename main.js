@@ -254,6 +254,7 @@ function vr_function() {
   flag_speech = 0;
   document.getElementById('status').innerHTML = "待機中";
   document.getElementById('status').className = "ready";
+  //方便 音声認識スタート→辞書機能をがつがつと足せないか？
   recognition.start();
 }
 
